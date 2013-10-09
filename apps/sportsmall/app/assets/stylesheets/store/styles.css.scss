@@ -1,0 +1,44 @@
+/** File: app/assets/stylesheets/store/styles.css.scss **/
+
+/* import the variables from the _variables.scss file */
+@import 'variables';
+
+/*--------------------------------------*/
+/* Links
+/*--------------------------------------*/
+/* Update the color to use the green color */
+a {
+  color: $link_text_color;
+
+  &:hover {
+    color: darken($link_text_color, 10);
+  }
+
+}
+
+/* Update the header to use the header font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $ff_header;
+}
+
+/* Update the top and main nav bars to use the header font */
+nav#top-nav-bar, nav #main-nav-bar  {
+  li {
+    a {
+      font-family: $ff_header;
+    }
+    &#link-to-cart {
+      a {
+        font-family: $ff_header;
+        color: $link_text_color;
+      }
+    }
+  }
+}
+
+/* Update the buttons to use the green background color */
+input[type="submit"], input[type="button"],
+input[type= "reset"], button, a.button {
+  background-color: $link_text_color;
+}
+

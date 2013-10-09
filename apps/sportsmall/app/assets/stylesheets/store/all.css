@@ -5,6 +5,7 @@
  *
 
  *= require store/spree_frontend
+ *= require store/styles
 
  *= require_self
  *= require_tree .

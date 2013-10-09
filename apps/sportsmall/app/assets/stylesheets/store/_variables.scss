@@ -1,0 +1,20 @@
+/** File: app/assets/stylesheets/store/_variables.scss **/
+
+/*--------------------------------------*/
+/* Colors
+/*--------------------------------------*/
+// Change the link text color to green
+$link_text_color:           #12800a !default;
+
+/*--------------------------------------*/
+/* Fonts import from remote
+/*--------------------------------------*/
+// Add a new Google web font named 'Graduate'
+@import url(//fonts.googleapis.com/css?family=Graduate);
+
+/*--------------------------------------*/
+/* Font families
+/*--------------------------------------*/
+//$ff_base:       'Ubuntu', sans-serif !default;
+// Assign the 'Graduate' web font to a variable to be used later
+$ff_header:     'Graduate', cursive;
